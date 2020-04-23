@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+
+.body {
+    background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
+    background-attachment: fixed;
+    height: 300vh;
+    font-family: 'Gotu', sans-serif;
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+}
+
+.linkButtons {
+    border:solid;
+    height: 1rem;
+    width: 20%;
+    background-image: url(https://www.sharethis.com/wp-content/uploads/2017/05/LinkedIn.png);
+}
+
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+#name {
+    margin-bottom: -1rem;
+}
+
+.navTitles {
+    font-size: larger;
+    padding-right: 10%;
+}
+
+#lil {
+    height: 10%;
+    border-radius: 1%;
+}
