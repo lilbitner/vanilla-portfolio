@@ -25,11 +25,13 @@
 } */
 
 .buttons {
-    /* display: flex; */
+    display: flex;
+    margin-top: 3%;
     /* flex-direction: row; */
-    /* justify-content: space-between; */
+    justify-content: space-between;
     text-decoration: none;
     color: black;
+    /* justify-content: space-evenly; */
     /* margin-left: 60%; */
 } 
 
@@ -44,19 +46,15 @@
 }
 
 #lil {
-    height: 30vh;
-    width: 120w;
-    border-radius: 1%;
+    height: 35vh;
+    width: 130w;
+    margin-top: 8%;
+    /* margin-left: 3%; */
+    margin-right: 2%;
+    border-radius: 2%;
     box-shadow: 0px 0px 8px whitesmoke;
 }
 
-.titleButtons {
-    display: flex;
-    align-items: flex-end;
-    align-content: center;
-    justify-content: space-around;
-    justify-content: flex-start;
-}
 
 #projectImage {
     height: 60%;
