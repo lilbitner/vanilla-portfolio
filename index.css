@@ -17,12 +17,12 @@
     background-image: url(https://www.sharethis.com/wp-content/uploads/2017/05/LinkedIn.png);
 }
 
-.Nav {
+/* .Nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-}
+} */
 
 .buttons {
     /* display: flex; */
@@ -44,7 +44,8 @@
 }
 
 #lil {
-    height: 10%;
+    height: 30vh;
+    width: 120w;
     border-radius: 1%;
     box-shadow: 0px 0px 8px whitesmoke;
 }
@@ -54,6 +55,7 @@
     align-items: flex-end;
     align-content: center;
     justify-content: space-around;
+    justify-content: flex-start;
 }
 
 #projectImage {
@@ -70,6 +72,19 @@
 
 } */
 
-.Mod3, .Mod4, .Mod5 {
+.timeline {
+    /* background-color: whitesmoke; */
+    opacity: .6;
+    /* text-align: center; */
+}
 
+.yaleDescription {
+    list-style: none;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify-content: space-evenly; */
 }
