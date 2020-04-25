@@ -6,6 +6,10 @@
     width: 40%;
 }
 
+.Mod3, .Mod4 {
+    margin-bottom: 6%;
+}
+
 #projectImage:hover {
     box-shadow: 0px 8px 16px whitesmoke;
 }
@@ -59,4 +63,36 @@
     flex-direction: row;
     justify-content: flex-start;
     /* justify-content: space-evenly; */
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+#links {
+    text-decoration: none;
+    color: black;
+}
+
+.projectTitle {
+    display: flex;
+    align-items: center;
+}
+
+/* .projectsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+#description {
+    font-size: small;
+    width: 50%;
 }
