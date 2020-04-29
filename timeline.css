@@ -3,6 +3,7 @@
 
 .timeline {
     font-size: large;
+    width: 50vw;
 }
 
 .yaleDescription {
@@ -21,8 +22,9 @@
 .buttons {
     display: flex;
     margin-top: 2%;
+    margin-right: 4%;
     /* flex-direction: row; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-decoration: none;
     color: black;
     /* justify-content: space-evenly; */
@@ -54,7 +56,7 @@
 
 #lil {
     height: 35vh;
-    width: 130w;
+    /* width: 20vw; */
     margin-top: 8%;
     /* margin-left: 3%; */
     margin-right: 2%;
