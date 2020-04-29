@@ -45,7 +45,7 @@
     font-style: italic;
 }
 
-#lil {
+#lil, #lil2, #lil3 {
     height: 35vh;
     width: 130w;
     margin-top: 8%;
@@ -69,7 +69,8 @@ and (orientation : portrait) {
         background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
         background-attachment: fixed;
         background-size: cover;
-        height: 100vh;
+        /* width: 10vw; */
+        height: 40vh;
         background-repeat: no-repeat;
         font-family: 'Gotu', sans-serif;
         object-fit: cover;
@@ -83,16 +84,24 @@ and (orientation : portrait) {
     }
     
 
-    .buttons {
+    div.buttons {
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* width: 100%; */
         margin-top: 2%;
         margin-right: 10%;
-        text-decoration: none;
-        /* justify-content: space-evenly; */
-        color: black;
+        /* text-decoration: none; */
+        justify-content: space-between;
+        /* color: black; */
     } 
+
+    a.buttons {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        white-space: nowrap;
+    }
     
     #name {
         margin-bottom: -1rem;
@@ -116,14 +125,20 @@ and (orientation : portrait) {
         /* text-align: center; */
     }
     
-    #lil {
-        height: 20vh;
-        width: 20vw;
+    #lil{
+        height: 25vh;
+        width: 40vw;
         /* width: 130w; */
         margin-top: 8%;
-        margin-right: 2%;
+        margin-left: 35%;
+        margin-bottom: 10%;
+        /* margin-right: 2%; */
         border-radius: 2%;
         box-shadow: 0px 0px 8px whitesmoke;
+    }
+
+    #lil2, #lil3 {
+        opacity: 0;
     }
     
     
