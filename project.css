@@ -193,6 +193,7 @@ a.buttons {
     display: flex;
     align-items: center;
     font-size: medium;
+    white-space: nowrap;
 }
 
 #description {
@@ -259,6 +260,8 @@ and (orientation : portrait) {
         margin-left: 4%;
     }
 
+  
+
 }
 
 @media only screen 
@@ -319,3 +322,135 @@ a.buttons {
 }
 
 } 
+
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { 
+   
+
+   div.buttons {
+    display: flex;
+    font-size: x-small;
+    /* width: 50%; */
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* width: 100%; */
+    margin-top: 2%;
+    margin-right: 10%;
+    /* text-decoration: none; */
+    justify-content: space-between;
+    /* color: black; */
+} 
+
+a.buttons {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    white-space: nowrap;
+}
+
+#name {
+    margin-bottom: -1rem;
+    margin-right: 40%;
+    text-decoration: none;
+    font-family: 'Gotu', sans-serif;
+    color:black;
+    font-size: xxx-large;
+    white-space: nowrap;
+}
+
+.body {
+    background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
+    background-attachment: fixed;
+    /* height: 40vh; */
+    font-family: 'Gotu', sans-serif;
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+}
+
+.projectTitle {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+
+#description {
+    font-size: small;
+    width: 90%;
+}
+
+} 
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+    div.buttons {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* width: 100%; */
+        margin-top: 2%;
+        margin-right: 10%;
+        width: 50%;
+        font-size: small;
+        /* text-decoration: none; */
+        justify-content: space-between;
+        /* color: black; */
+    } 
+
+    a.buttons {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .body {
+        background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
+        background-attachment: fixed;
+        /* height: 40vh; */
+        font-family: 'Gotu', sans-serif;
+        /* background-repeat: no-repeat; */
+        object-fit: cover;
+    }
+    #name {
+        margin-bottom: -1rem;
+        margin-right: 40%;
+        text-decoration: none;
+        font-family: 'Gotu', sans-serif;
+        color:black;
+        font-size: xxx-large;
+        white-space: nowrap;
+    }
+
+    #projectImage {
+        /* display: none; */
+        height: 15vh;
+        width: 60%;
+
+    }
+
+    #description {
+        /* display: none; */
+        font-size: x-small;
+        width: 140%;
+        margin-left: 4%;
+    }
+
+    .projectLinks {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        font-size: medium;
+    }
+
+    .projectTitle {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+}
