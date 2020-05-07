@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+
+.body {
+    background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
+    background-attachment: fixed;
+    /* height: 250vh; */
+    font-family: 'Gotu', sans-serif;
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+}
+
+
+
+.navTitles {
+    font-size: larger;
+    padding-right: 20%;
+    text-decoration: none;
+    font-family: 'Gotu', sans-serif;
+    color:black;
+    font-size: larger;
+}
+
+
+.nav {
+    /* height: 1rem; */
+    background-color: #4D5252;
+    /* rgba(255, 182, 193, 0.808) */
+}
+
+.buttons {
+    display: flex;
+    margin-top: 2%;
+} 
+
+.button {
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;
+}
+
+.button:hover {
+    box-shadow: 0px 8px 16px white;
+}
+
+.emailForm {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+input, textarea, #sendButton {
+    margin-bottom: 2%;
+    font-family: 'Gotu', sans-serif;
+}
+
+h3{
+    text-decoration: underline;
+}

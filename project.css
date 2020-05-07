@@ -7,17 +7,25 @@
     box-shadow: 0px 0px 8px whitesmoke;
 }
 
-.Mod3, .Mod4 {
+.Mod3, .Mod4, .Mod5 {
     margin-bottom: 3%;
 }
 
 h3{
     font-size: x-large;
+    /* margin-bottom: -.5%; */
 }
 
 /* #projectImage:hover {
     box-shadow: 0px 8px 16px whitesmoke;
 } */
+
+.line {
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    /* margin: auto; */
+}
 
 .body {
     background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
@@ -87,6 +95,7 @@ h3{
 .projectLinks {
     display: flex;
     flex-direction: row;
+    width: 85%;
     /* justify-content: space-between; */
     /* margin-left: 2%; */
 }
@@ -95,6 +104,10 @@ h3{
     text-decoration: none;
     color: black;
     margin-right: 5%;
+}
+
+#links:hover {
+    box-shadow: 0px 8px 16px white;
 }
 
 .projectTitle {
@@ -113,7 +126,7 @@ h3{
     width: 48%;
 }
 
-h3, #links {
+ #links {
     text-decoration: underline;
 }
 
