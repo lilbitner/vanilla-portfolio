@@ -103,7 +103,7 @@ h3{
 #links {
     text-decoration: none;
     color: black;
-    margin-right: 5%;
+    margin-right: 14%;
 }
 
 #links:hover {
@@ -150,6 +150,25 @@ h3{
 .button:hover {
     box-shadow: 0px 8px 16px white;
 }
+
+#techStack {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+#one, #two, #three, #four, #five, #six {
+    width: 10vw;
+    height: 15vh;
+    border-radius: 10%;
+    /* margin-left: 2%; */
+}
+
+#one, #four, #five, #six {
+    background-color: white;
+}
+
+
 
 @media only screen 
 and (min-device-width : 768px) 
