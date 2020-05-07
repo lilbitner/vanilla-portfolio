@@ -4,32 +4,37 @@
 #projectImage {
     height: 60%;
     width: 40%;
+    box-shadow: 0px 0px 8px whitesmoke;
 }
 
 .Mod3, .Mod4 {
-    margin-bottom: 6%;
+    margin-bottom: 3%;
 }
 
-#projectImage:hover {
-    box-shadow: 0px 8px 16px whitesmoke;
+h3{
+    font-size: x-large;
 }
+
+/* #projectImage:hover {
+    box-shadow: 0px 8px 16px whitesmoke;
+} */
 
 .body {
     background-image: url(https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80) ;
     background-attachment: fixed;
-    height: 225vh;
+    /* height: 225vh; */
     font-family: 'Gotu', sans-serif;
     /* background-repeat: no-repeat; */
     object-fit: cover;
 }
 .buttons {
-    display: flex;
+    /* display: flex;
     margin-top: 2%;
-    margin-right: 4%;
+    margin-right: 4%; */
     /* flex-direction: row; */
     /* justify-content: space-between; */
-    text-decoration: none;
-    color: black;
+    /* text-decoration: none;
+    color: black; */
     /* justify-content: space-evenly; */
     /* margin-left: 60%; */
 } 
@@ -53,15 +58,15 @@
     padding-right: 20%;
 }
 
-#lil {
+/* #lil {
     height: 35vh;
     width: 130w;
     margin-top: 8%;
     /* margin-left: 3%; */
-    margin-right: 2%;
+    /* margin-right: 2%;
     border-radius: 2%;
-    box-shadow: 0px 0px 8px whitesmoke;
-}
+    box-shadow: 0px 0px 8px whitesmoke; */
+/* }  */
 
 
 
@@ -75,18 +80,21 @@
 
 .project {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
 }
 
 .projectLinks {
     display: flex;
-    flex-direction: column;
-    margin-left: 2%;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* margin-left: 2%; */
 }
 
 #links {
     text-decoration: none;
     color: black;
+    margin-right: 5%;
 }
 
 .projectTitle {
@@ -107,6 +115,27 @@
 
 h3, #links {
     text-decoration: underline;
+}
+
+.nav {
+    /* height: 1rem; */
+    background-color: #4D5252;
+    /* rgba(255, 182, 193, 0.808) */
+}
+
+.buttons {
+    display: flex;
+    margin-top: 2%;
+} 
+
+.button {
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;
+}
+
+.button:hover {
+    box-shadow: 0px 8px 16px white;
 }
 
 @media only screen 
