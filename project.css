@@ -103,7 +103,12 @@ h3{
 #links {
     text-decoration: none;
     color: black;
-    margin-right: 14%;
+    margin-right: 8.5%;
+    border: solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-color: white;
+    box-shadow: 0px 0px 8px white;
 }
 
 #links:hover {
@@ -125,10 +130,10 @@ h3{
     font-size: small;
     width: 48%;
 }
-
+/* 
  #links {
     text-decoration: underline;
-}
+} */
 
 .nav {
     /* height: 1rem; */
